@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootTrialApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Loading Spring Boot..");
 		SpringApplication.run(SpringBootTrialApplication.class, args);
 	}
 }
